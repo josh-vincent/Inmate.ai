@@ -1,6 +1,6 @@
 import DashboardHeader from '@/components/dashboard/DashboardHeader';
 import ChatStats from '@/components/dashboard/ChatStats';
-import MessageTimeline from '@/components/dashboard/MessageTimeline';
+// import MessageTimeline from '@/components/dashboard/MessageTimeline';
 import CommonPhrases from '@/components/dashboard/CommonPhrases';
 import TasksOverview from '@/components/dashboard/TasksOverview';
 import PlatformToggle from '@/components/dashboard/PlatformToggle';
@@ -20,7 +20,7 @@ export default function Dashboard() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <MessageTimeline />
+          {/* <MessageTimeline /> */}
           <CommonPhrases />
         </div>
 
